@@ -47,14 +47,7 @@ for (let i = 0; i < academyMembers.length; i++) {
     }
 }
 
-// HARDER: Which Academy Members have been in a film
-for (let i = 0; i < academyMembers.length; i++) {
-    if (academyMembers[i].films.length >= 1) {
-        console.log(`${academyMembers[i].name} has been in at least 1 film`);
-    }
-}
-
-// that starts with "A"
+// HARDER: Which Academy Members have been in a film that starts with "A"
 for (let i = 0; i < academyMembers.length; i++) {
     let aFilms = [];
     for (let j = 0; j < academyMembers[i].films.length; j++) {
