@@ -24,7 +24,7 @@ function aToZProducts(a, b) {
 }
 
 function nineToZeroPrice(a, b) {
-    return a.price - b.price
+    return b.price - a.price
 }
 
 // sort list alphabetically by products property, then print
